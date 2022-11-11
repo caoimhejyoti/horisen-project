@@ -1,26 +1,68 @@
 * {
     /*need to confirm fonts. code taken from previous project as filler for now*/
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin:0px;
 
   }
 
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+ul{
+    display: inline;
+}
+
+
+li{
+    list-style-type: none;
+    
+}
+
+  
 header {
-    position: sticky; /*not sticky!*/ 
-    height: 200px; /* will need to be reduced once the rest of the code is complete*/
+    
+    height: 100px; /* will need to be reduced once the rest of the code is complete*/
     width:100%;
-    padding: 10px; /*issue with the spacingn at the top of the page - can see things scroll behind at the top and sides*/
+    margin-bottom: 10px;
+    /*padding: 10px;*/ /*issue with the spacingn at the top of the page - can see things scroll behind at the top and sides*/
     background-color: teal;
     color: white;
-    /*when adding "display: inline;" i loose the background color.*/
+    /*display: inline;*/
+    /*when adding "" i loose the background color.*/
 }
 
-.links {
-    display: block;
-    color: white;
+
+h1{
     float: left;
-    background-color: teal;
+    display: inline
+}
+.seo {
+    color: gray;
 }
 
+
+
+nav {
+    width: 800px;
+    color: white;
+    float: right;
+    display: inline;
+}
+
+/*
 img{
     width: 300px;
     height: 200px;
@@ -45,3 +87,4 @@ section{
 .RHS{
     background-color: aqua;
 }
+*/

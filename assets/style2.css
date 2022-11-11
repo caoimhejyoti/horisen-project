@@ -1,0 +1,147 @@
+/*
+
+*{
+    margin:0px;
+}
+
+header{
+    width:100%;
+    height: 100px;
+    background-color: teal;
+    padding: 10px;
+    display:inline;
+}
+
+nav{
+    float: right;
+}
+*/
+
+* {
+    /*need to confirm fonts. code taken from previous project as filler for now*/
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin:0px;
+
+  }
+
+header {
+    overflow: hidden;
+    background-color: #2a607c;
+    padding: 20px 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+h1 {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    display: flex;
+
+  }
+
+.seo {
+    color: #DCDFD7;
+}
+
+nav {
+    display: flex;
+    float: right;
+  }
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    margin: 10px;
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  .welcome img{
+    width:100%
+
+}
+.box img{
+    width: 300px;
+    height: 200px;
+    
+}
+
+.box{
+    height: 700px;
+    width: 70%;
+    background-color: #D9DCD6;
+    padding: 10px;
+    
+}
+
+.left img{
+    float: left;
+   
+}
+.right img{
+    float: right;
+    order: 3;
+}
+
+.left{
+    height:200px;
+    background-color: #0072BB;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.right{
+    height:200px;
+    background-color: #0072BB;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.left div {
+    display: block;
+    padding-left: 10px;
+}
+
+.right div {
+    display: block;
+}
+
+.left p{
+    width:90%;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+.right p{
+    width:90%;
+    vertical-align: middle;
+    padding-top: 20px;
+    
+}
