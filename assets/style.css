@@ -1,10 +1,11 @@
 * {
     /*need to confirm fonts. code taken from previous project as filler for now*/
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
   }
 
 header {
-    position:fixed;
+    position: sticky; /*not sticky!*/ 
     height: 200px; /* will need to be reduced once the rest of the code is complete*/
     width:100%;
     padding: 10px; /*issue with the spacingn at the top of the page - can see things scroll behind at the top and sides*/
@@ -16,4 +17,31 @@ header {
 .links {
     display: block;
     color: white;
+    float: left;
+    background-color: teal;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+.box{
+    background-color: beige;
+}
+
+section{
+    background-color: blue;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.RHS{
+    background-color: aqua;
 }
