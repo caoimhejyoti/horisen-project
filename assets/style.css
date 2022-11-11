@@ -1,0 +1,19 @@
+* {
+    /*need to confirm fonts. code taken from previous project as filler for now*/
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+header {
+    position:fixed;
+    height: 200px; /* will need to be reduced once the rest of the code is complete*/
+    width:100%;
+    padding: 10px; /*issue with the spacingn at the top of the page - can see things scroll behind at the top and sides*/
+    background-color: teal;
+    color: white;
+    /*when adding "display: inline;" i loose the background color.*/
+}
+
+.links {
+    display: block;
+    color: white;
+}
