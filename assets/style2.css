@@ -110,7 +110,7 @@ a:link {
 }
 
 .left{
-    height:200px;
+    height:auto;
     background-color: #0072BB;
     vertical-align: middle;
     display: flex;
@@ -121,7 +121,7 @@ a:link {
 }
 
 .right{
-    height:200px;
+    height:auto;
     background-color: #0072BB;
     vertical-align: middle;
     display: flex;
@@ -152,15 +152,16 @@ a:link {
     padding-top: 20px;
     
 }
-
+/*Issues with virtical align. due to not working, i have removed it. */
 .column2 img{
     width:100px;
+
+    
 }
 .column2 {
     float: right;
     width: 29%;
     background-color: #3E89BD;
-    vertical-align: middle;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,24 +171,22 @@ a:link {
 }
 
 .lead{
-
-    vertical-align: middle;
     padding: 20px;
+    display: block;
 }
 
 .brand{
-
-    vertical-align: middle;
     padding: 20px;
+    display: block;
 }
 
 .cost{
-
-    vertical-align: middle;
     padding: 20px;
+    display: block;
 }
 
 
 footer{
     color: black;
+
 }
