@@ -21,6 +21,7 @@ nav{
     /*need to confirm fonts. code taken from previous project as filler for now*/
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin:0px;
+    color: white;
 
   }
 
@@ -82,20 +83,23 @@ a:link {
     width:100%
 
 }
-.box img{
-    width: 300px;
-    height: 200px;
-    
-}
 
 .box{
-    height: 700px;
-    width: 70%;
     background-color: #D9DCD6;
-    padding: 10px;
-    
+}
+.column1 img{
+    width: 300px;
+    height: 200px;
+
 }
 
+.column1{ 
+    width: 70%;
+
+    float: left;
+    
+}
+/*following left and right is within column1*/
 .left img{
     float: left;
    
@@ -112,7 +116,8 @@ a:link {
     display: flex;
     align-items: center;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 .right{
@@ -122,8 +127,10 @@ a:link {
     display: flex;
     align-items: center;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
+
 .left div {
     display: block;
     padding-left: 10px;
@@ -144,4 +151,43 @@ a:link {
     vertical-align: middle;
     padding-top: 20px;
     
+}
+
+.column2 img{
+    width:100px;
+}
+.column2 {
+    float: right;
+    width: 29%;
+    background-color: #3E89BD;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+
+.lead{
+
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.brand{
+
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.cost{
+
+    vertical-align: middle;
+    padding: 20px;
+}
+
+
+footer{
+    color: black;
 }
