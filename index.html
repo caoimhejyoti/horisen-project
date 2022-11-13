@@ -3,16 +3,16 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="assets/style2.css"> <!--testing css file-->
+    <link rel="stylesheet" href="assets/style2.css"> <!--secondary file due to restarting. Initial file was full of bugs. by starting second file, I was able to pull sections of code and create a working style sheet.-->
     <title>Horiseon</title>
 </head>
 
 <body>
-    <!--Header in teal band. h1 on LHS. li inline RHS. fixed position for heder?-->
+    <!--Header in teal band. h1 on LHS. li inline RHS. possible future developments - fixed/sticky position for heder?-->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
-            <ul><!--error in these links-->
+            <ul> <!--links working after further investigation-->
                 <li><a href="#search_engine_optimization">Search Engine Optimization</a></li>
                 <li><a href="#online_reputation_management">Online Reputation Management</a></li>
                 <li><a href="#social-media-marketing">Social Media Marketing</a></li>
@@ -21,18 +21,16 @@
     </header>
 
 
-    <!--Section 1-->
+<!--Section 1-->
     <section class="welcome">
         <img src="./assets/images/digital-marketing-meeting.jpg" alt="Image:Four individuals around a table discussing a hard copy documents. One is stood over the table, while the others are sat. There is a white board in the background and they are clearly in an office space. Once individual is also sat with a laptop."/>
     </section>
 
-<!--Section A - box-->
-
+<!--Section 2 - box = main body of site. View split into two columns-->
     <section class="box">
         <section class="column1">
-            <!--Section 2 - Search Engine Optimization.-->
+            <!--Section 2.a - Search Engine Optimization.-->
             <section class="left">
-            <!--Image needs to be reduced in size - 200x300px?-->
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Birds eye view of note book with a mind map drawn on it. In the centre of the mind map is the work SEO. Around the book are various items. In the top left hand corner is a laptop key board just in view. A magnifying glass rest on this. In the top right hand sorner is a pot of coloured pens and pencils. In the bottom left hand corner is a white cup and saucer full of coffee."/>
                     <div>
                         <h2 id="search_engine_optimization">Search Engine Optimization</h2>
@@ -40,7 +38,7 @@
                     </div>    
             </section>
 
-        <!--Section 3 - Online Reputation Managment-->
+            <!--Section 2.b - Online Reputation Managment-->
             <section class="right">
                 <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Image from beind someones shoulder of a laptop. The screen has the word reputation across the top, in big righting. Below this heading is a bar char with increasing bars. The person has their phone in their hand, in front of the laptop. To the left of the laptop is a black mug." />
                 <div>
@@ -49,7 +47,7 @@
                 </div>
             </section>
 
-    <!--Section 4 - Social Media Marketing-->
+            <!--Section 2.c - Social Media Marketing-->
             <section class="left">
                 <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="This image ia a buysy birds eye view of a table. We can see that there are 6 people around the table but only their hands are visible. Some are using personal devices, others are pointing at things on the table. The table is covered in bright colourful icons. The icons reference diffference social media marketing tools."/>
                 <div>
@@ -59,40 +57,40 @@
             </section>
         </section>
 
-<!--Section 5 - RHS bar of info - aqua marine. section broken into divs for each chunk of information-->
+<!--Section 3 - column 2 = RHS bar of info - aqua marine. section broken into further sections for each chunk of information-->
         <section class="column2">
         
+            <!--Section 3.a - Lead Generation-->
             <section class="lead">
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt="Black graphic. working top to bottom, we have half a cog on top of a funnel. The funnel has a downward arrow on it. Below the funnel is a dollar sign in a circle." />
                 <p>Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
             </section>
 
+            <!--Section 3.b - Brand Awareness-->
             <section class="brand">
                 <h3>Brand Awareness</h3>
                 <img src="./assets/images/brand-awareness.png" alt="Black graphic. Bust of human with a tie on and an light bulb as a head. The lightbulb has radiating curves from it to indicate brightness."/>
                 <p>Users find your business through paid and organic searches, increasing the search ranking and visibility for your business. </p>
             </section>
 
+            <!--Section 3.c - Cost Management-->
             <section class="cost">
                 <h3>Cost Management</h3>
                 <img src="./assets/images/cost-management.png" alt="Graphic depicting a cog with three dollar signs in cirles in front of it. The two on the sids are black cirles and the front middle is only outlined."/>
                 <p>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</p>
             </section>
-        </section>
 
+        </section>
 
     </section>
 
 </body>
 
-<!--footer-->    
+  
 <footer>
     <h2 class="footer">Made with ❤️️ by Horiseon</h2>
     <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
 </footer>
-
-
-
 
 </html>
