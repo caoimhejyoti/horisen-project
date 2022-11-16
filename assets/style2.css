@@ -12,37 +12,28 @@
 
 /*Possible future header developments - make it sticky so it scrolls with the page.*/
 header {
-    overflow: hidden;
-    background-color: #2a607c;
+    display: flex;
     padding: 20px 10px;
     position: relative;
-    display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #2a607c;
   }
 
-  /*h1 split to allow for variotion of colour in letters S-E-O*/
+/*h1 split to allow for variotion of colour in letters S-E-O*/
 h1 {
-    float: left;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 12px;
     display: flex;
-
+    padding: 12px;
+    text-align: center;
+    color: rgb(255, 255, 255);
   }
 
 .seo {
     color: #DCDFD7;
 }
 
-/*Navigation required breaking up dur to the links within. Future development ideas - look at creating a highlight as you over over it, possibly into a button?*/
-
-nav {
-    display: flex;
-    float: right;
-  }
-
-ul{
+/*Navigation required breaking up due to the links within. Future development ideas - look at creating a highlight as you over over it, possibly into a button?*/
+.nav{
     display: flex;
 }
 
@@ -67,123 +58,84 @@ a:active {
     text-decoration: underline;
   }
 
-/*Cover Image*/  
-.welcome img{
+/*Cover Image = hero*/  
+.hero img{
     width:100%
 }
 
-/*Main body of text all within "box", split into two columns. Columns responsive to size. Future developements require looking at image size also being responsive.*/
-.box{
+/*Main body of text. Future developements require looking at image size also being responsive.*/
+.main{
     background-color: #D9DCD6;
+    display: flex;
 }
 
-
-.column1 img{
-    width: 300px;
-    height: 200px;
-
+.card img{
+    width: 40%;
 }
 
-.column1{ 
+.card{ 
     width: 70%;
-
-    float: left;
-    
 }
-/*following class selectors are within column1*/
-.left img{
-    float: left;
-   
-}
+/*following class selectors are within main*/
 .right img{
-    float: right;
-    order: 3;
+    order: 1;
 }
 
 .left{
-    height:auto;
-    background-color: #0072BB;
-    vertical-align: middle;
     display: flex;
-    align-items: center;
-    padding: 10px;
     margin-top: 10px;
     margin-left: 5px;
+    padding: 10px;
+    height:auto;
+    align-items: center;
+    background-color: #0072BB;
 }
 
 .right{
-    height:auto;
-    background-color: #0072BB;
-    vertical-align: middle;
     display: flex;
-    align-items: center;
-    padding: 10px;
     margin-top: 10px;
     margin-left: 5px;
+    padding: 10px;
+    height:auto;
+    align-items: center;
+    background-color: #0072BB;
 }
 
-.left div {
-    display: block;
+.left article {
     padding-left: 10px;
 }
 
-.right div {
-    display: block;
-}
-
-.left p{
+p{
     width:90%;
-    vertical-align: middle;
     padding-top: 20px;
 }
 
-.right p{
-    width:90%;
-    vertical-align: middle;
-    padding-top: 20px;
-    
-}
 
-
-.column2 img{
-    width:100px;
+/* Aside styling*/
+.aside img{
+    max-width: 150px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
+
 }
 
-.column2 {
-    float: right;
-    width: 29%;
+.aside {
+    margin: 10px;
+    width: 27%;
     background-color: #3E89BD;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    margin-right: 5px;
+    padding: 10px;
 }
 
-h3{
-text-align: center;
+.aside h3{
+    margin-top: 20px;
+    text-align: center;
 }
 
-.lead{
-    padding: 20px;
-    display: block;
-}
-
-.brand{
-    padding: 20px;
-    display: block;
-}
-
-.cost{
-    padding: 20px;
-    display: block;
-}
-
-/*footer*/
-.footer{
+/*footer - contains bug. Cannnot make p black when styled as part of the footer element. Have separated for now.  */
+.footer h2 {
     color: black;
-    display:block
 }
+
+.footer p {
+    color: black;
+}  */
