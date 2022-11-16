@@ -30,7 +30,7 @@ As a marketing agency
 To develop and practise my skills in HTML and CSS.
 
 ### Why did you build this project? 
-
+I built this project as a platform to ensure that I fully understood the first module of Coding Bootcamp. 
 
 ### What problem does it solve?
 The original site had no style sheet. HTML also required debugging. 
@@ -47,13 +47,7 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+N/A
 
 ## Credits
 
@@ -65,10 +59,3 @@ https://www.youtube.com/watch?v=xHFzQ8QRjGU&ab_channel=TonyTeachesTech
 
 ## License
 Please refer to the LICENSE in the repo.
-
----
-
-## Features
-
-If your project has a lot of features, list them here.
-
