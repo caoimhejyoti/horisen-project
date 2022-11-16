@@ -30,7 +30,7 @@ As a marketing agency
 To develop and practise my skills in HTML and CSS.
 
 ### Why did you build this project? 
-
+I built this project as a platform to ensure that I fully understood the first module of Coding Bootcamp. 
 
 ### What problem does it solve?
 The original site had no style sheet. HTML also required debugging. 
