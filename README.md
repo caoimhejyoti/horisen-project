@@ -59,10 +59,3 @@ https://www.youtube.com/watch?v=xHFzQ8QRjGU&ab_channel=TonyTeachesTech
 
 ## License
 Please refer to the LICENSE in the repo.
-
----
-
-## Features
-
-If your project has a lot of features, list them here.
-
