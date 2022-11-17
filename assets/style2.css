@@ -131,11 +131,7 @@ p{
     text-align: center;
 }
 
-/*footer - contains bug. Cannnot make p black when styled as part of the footer element. Have separated for now.  */
-.footer h2 {
+/* footer */
+footer > * {
     color: black;
 }
-
-.footer p {
-    color: black;
-}  
